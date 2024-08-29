@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- navbar start  -->
+    <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <a href="" class="navbar-brand">
+              <img width="200" src="Assets/Images/Saylani Logo.png" alt="logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div
+              class="justify-content-end collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="navv nav-link mx-2 my-4" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 my-4" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 my-4" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 my-4" href="#">Media</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 my-4" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 my-4" href="#">Bank Details</a>
+                </li>
+                <li class="nav-item">
+                  <a class="navvv nav-link mx-2 my-4" href="#">Other Websites</a>
+                </li>
+              </ul>
+              <button class="mx-2 butt">DONATE NOW</button>
+              <button class="mx-2 but">BE A SPONSOR</button>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- Navbar Section End -->
+       <!-- navbar styling start  -->
+       .navv {
+        color: #3384c2;
+    }
+    
+    .navvv {
+        color: #3384c2;
+    }
+    
+    .navvv:hover {
+        color: #8dc63f;
+    }
+    
+    .nav-link {
+        font-size: 12px;
+    }
+    
+    .navbar-nav .nav-link {
+        text-decoration: none;
+        position: relative;
+    }
+    
+    .navbar-nav .nav-link::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #8dc63f;
+        transition: width .3s, center .3s;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transform-origin: center;
+    }
+    
+    .navbar-nav .nav-link:hover::after {
+        width: 100%;
+        left: 0;
+        transform: translateX(0);
+    }
+    
+    .butt {
+        border: 1px solid #0d6db7;
+        background-color: #0d6db7;
+        color: white;
+        padding: 8px;
+        border-radius: 8px;
+        font-size: 12px;
+    
+    }
+    
+    .but {
+        border: 1px solid #0d6db7;
+        background-color:
+            #8dc63f;
+        color: white;
+        padding: 8px;
+        border-radius: 8px;
+        font-size: 12px;
+    
+    }
+    
+    .but :hover {
+        background-color: #8dc63f;
+    }    
+        <!-- navbar styling end  -->
+
+
+         <!-- Footer Start  -->
+
+    <footer class="footer mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 text-center text-md-left">
+              <img
+                src="./Assets/Images/Saylani Logo.png"
+                alt="Logo"
+                class="img-fluid mb-3"
+              />
+              <div class="social-icons">
+                <a href="#"
+                  ><img
+                    class="facebook"
+                    src="./Assets/Images/facebook.png"
+                    alt="Facebook"
+                /></a>
+                <a href="#"
+                  ><img class="x" src="./Assets/Images/x.png" alt="X"
+                /></a>
+                <a href="#"
+                  ><img
+                    class="youtube"
+                    src="./Assets/Images/youtube.png"
+                    alt="YouTube"
+                /></a>
+                <a href="#"
+                  ><img
+                    class="whatsapp"
+                    src="./Assets/Images/whatsapp.svg"
+                    alt="WhatsApp"
+                /></a>
+              </div>
+            </div>
+            <div class="col-md-3 mt-3">
+              <h5>About</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Introduction</a></li>
+                <li><a href="#">Chairman Message</a></li>
+                <li><a href="#">Annual Report</a></li>
+                <li><a href="#">Bank Details</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mt-3">
+              <h5>Explore</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Donations</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mt-3 contact-info">
+              <h5>Contact</h5>
+              <p>A-25, Bahadurabad Chowrangi Karachi, Pakistan</p>
+              <p>UAN: 111-729-526 (+0092-213)4130786-90</p>
+              <p>Cell: 92-311-1729526</p>
+              <p>USA NO: +1(716)941 7792</p>
+              <p>UK NO: (+44)115 970 6256</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col text-center">
+              <img src="./Assets/Images/acca.png" alt="" />
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col text-center">
+              <p>IP address data powered by IPinfo</p>
+              <p>Copyright &copy; 2024 by Saylani Welfare Int Trust</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End  -->
+       <!-- footer styling start  -->
+       .footer {
+        background-color: #3a3a3a;
+        color: white;
+        padding: 2rem 0;
+        position: relative;
+        overflow: hidden;
+        font-size: 12px;
+    
+    }
+    
+    .footer a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .footer a:hover {
+        text-decoration: underline;
+    }
+    
+    .footer .social-icons a {
+        margin: 0 10px;
+    
+    }
+    
+    .footer .social-icons a img {
+        width: 30px;
+    }
+    
+    .footer .contact-info p {
+        margin: 0;
+    }
+    
+    .facebook {
+        border-radius: 5px;
+    }
+    
+    .x {
+        border-radius: 5px;
+        background-color: white;
+        color: white;
+        height: 30px;
+    }
+    
+    .youtube {
+        border-radius: 5px;
+    
+    }
+    
+    .whatsapp {
+        border-radius: 5px;
+        background-color: green;
+    }
+       <!-- footer styling end -->
+ </body>
+</html>
